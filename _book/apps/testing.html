@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>Testing | Tangle</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="tanglejs">
+        <meta name="description" content="Book generated using GitBook">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="../modules/README.html" />
+        
+        
+        <link rel="prev" href="../apps/configuration.html" />
+        
+
+        <meta property="og:title" content="Testing | Tangle">
+        <meta property="og:site_name" content="Tangle">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/tanglejs">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="../gitbook/style.css">
+        
+        
+    </head>
+    <body>
+        
+<div class="book" data-github="tanglejs/book" data-level="5.3" data-basepath=".." data-revision="1397199913774">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="https://github.com/tanglejs/book" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/tanglejs/book/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/tanglejs/book/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+
+
+    <!-- Title -->
+    <h1><a href="../" >Tangle</a></h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        <li>
+            <a href="https://github.com/tanglejs" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/tanglejs/book/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/tanglejs/book/edit/master/apps/testing.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="installation.html">
+                
+                <a href="../installation.html">
+                    <i class="fa fa-check"></i> <b>1)</b> Installation
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="2" data-path="concepts.html">
+                
+                <a href="../concepts.html">
+                    <i class="fa fa-check"></i> <b>2)</b> Key Concepts
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="3" data-path="toolchain.html">
+                
+                <a href="../toolchain.html">
+                    <i class="fa fa-check"></i> <b>3)</b> Toolchain
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="4" data-path="projects/README.html">
+                
+                <a href="../projects/README.html">
+                    <i class="fa fa-check"></i> <b>4)</b> Projects
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="projects/new.html">
+                            
+                            <a href="../projects/new.html">
+                                <i class="fa fa-check"></i> <b>4.1)</b> New
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.2" data-path="projects/environments.html">
+                            
+                            <a href="../projects/environments.html">
+                                <i class="fa fa-check"></i> <b>4.2)</b> Environments
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.3" data-path="projects/build.html">
+                            
+                            <a href="../projects/build.html">
+                                <i class="fa fa-check"></i> <b>4.3)</b> Build &amp; Watch
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.4" data-path="projects/connect.html">
+                            
+                            <a href="../projects/connect.html">
+                                <i class="fa fa-check"></i> <b>4.4)</b> Connect
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.5" data-path="projects/configuration.html">
+                            
+                            <a href="../projects/configuration.html">
+                                <i class="fa fa-check"></i> <b>4.5)</b> Configuration
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="4.6" data-path="projects/testing.html">
+                            
+                            <a href="../projects/testing.html">
+                                <i class="fa fa-check"></i> <b>4.6)</b> Testing
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="5" data-path="apps/README.html">
+                
+                <a href="../apps/README.html">
+                    <i class="fa fa-check"></i> <b>5)</b> Apps
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="5.1" data-path="apps/new.html">
+                            
+                            <a href="../apps/new.html">
+                                <i class="fa fa-check"></i> <b>5.1)</b> New
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.2" data-path="apps/configuration.html">
+                            
+                            <a href="../apps/configuration.html">
+                                <i class="fa fa-check"></i> <b>5.2)</b> Configuration
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="5.3" data-path="apps/testing.html">
+                            
+                            <a href="../apps/testing.html">
+                                <i class="fa fa-check"></i> <b>5.3)</b> Testing
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="6" data-path="modules/README.html">
+                
+                <a href="../modules/README.html">
+                    <i class="fa fa-check"></i> <b>6)</b> Modules
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="6.1" data-path="modules/routes.html">
+                            
+                            <a href="../modules/routes.html">
+                                <i class="fa fa-check"></i> <b>6.1)</b> Routes
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.2" data-path="modules/configuration.html">
+                            
+                            <a href="../modules/configuration.html">
+                                <i class="fa fa-check"></i> <b>6.2)</b> Configuration
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="6.3" data-path="modules/testing.html">
+                            
+                            <a href="../modules/testing.html">
+                                <i class="fa fa-check"></i> <b>6.3)</b> Testing
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="7" data-path="initializers.html">
+                
+                <a href="../initializers.html">
+                    <i class="fa fa-check"></i> <b>7)</b> Initializers
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="8" data-path="primitives/README.html">
+                
+                <a href="../primitives/README.html">
+                    <i class="fa fa-check"></i> <b>8)</b> Primitives
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="9" data-path="plugins/README.html">
+                
+                <a href="../plugins/README.html">
+                    <i class="fa fa-check"></i> <b>9)</b> Plugins
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="9.1" data-path="plugins/configuration.html">
+                            
+                            <a href="../plugins/configuration.html">
+                                <i class="fa fa-check"></i> <b>9.1)</b> Configuration
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="10" data-path="configuration.html">
+                
+                <a href="../configuration.html">
+                    <i class="fa fa-check"></i> <b>10)</b> Configuration
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="11" data-path="introspection.html">
+                
+                <a href="../introspection.html">
+                    <i class="fa fa-check"></i> <b>11)</b> Introspection
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="12" data-path="refactoring.html">
+                
+                <a href="../refactoring.html">
+                    <i class="fa fa-check"></i> <b>12)</b> Refactoring
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="13" data-path="editor.html">
+                
+                <a href="../editor.html">
+                    <i class="fa fa-check"></i> <b>13)</b> Editor integration
+                </a>
+                
+                
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body" tabindex="-1">
+        <div class="body-inner">
+            <div class="page-wrapper">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 69.23076923076923%;min-width: 65.38461538461539%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../installation.html" title="Installation" class="chapter done new-chapter" data-progress="1" style="left: 3.8461538461538463%;"></a>
+    
+        <a href="../configuration.html" title="Configuration" class="chapter done " data-progress="10" style="left: 7.6923076923076925%;"></a>
+    
+        <a href="../introspection.html" title="Introspection" class="chapter done " data-progress="11" style="left: 11.538461538461538%;"></a>
+    
+        <a href="../refactoring.html" title="Refactoring" class="chapter done " data-progress="12" style="left: 15.384615384615385%;"></a>
+    
+        <a href="../editor.html" title="Editor integration" class="chapter done " data-progress="13" style="left: 19.23076923076923%;"></a>
+    
+        <a href="../concepts.html" title="Key Concepts" class="chapter done new-chapter" data-progress="2" style="left: 23.076923076923077%;"></a>
+    
+        <a href="../toolchain.html" title="Toolchain" class="chapter done new-chapter" data-progress="3" style="left: 26.923076923076923%;"></a>
+    
+        <a href="../projects/README.html" title="Projects" class="chapter done new-chapter" data-progress="4" style="left: 30.76923076923077%;"></a>
+    
+        <a href="../projects/new.html" title="New" class="chapter done " data-progress="4.1" style="left: 34.61538461538461%;"></a>
+    
+        <a href="../projects/environments.html" title="Environments" class="chapter done " data-progress="4.2" style="left: 38.46153846153846%;"></a>
+    
+        <a href="../projects/build.html" title="Build &amp; Watch" class="chapter done " data-progress="4.3" style="left: 42.30769230769231%;"></a>
+    
+        <a href="../projects/connect.html" title="Connect" class="chapter done " data-progress="4.4" style="left: 46.15384615384615%;"></a>
+    
+        <a href="../projects/configuration.html" title="Configuration" class="chapter done " data-progress="4.5" style="left: 50%;"></a>
+    
+        <a href="../projects/testing.html" title="Testing" class="chapter done " data-progress="4.6" style="left: 53.84615384615385%;"></a>
+    
+        <a href="../apps/README.html" title="Apps" class="chapter done new-chapter" data-progress="5" style="left: 57.69230769230769%;"></a>
+    
+        <a href="../apps/new.html" title="New" class="chapter done " data-progress="5.1" style="left: 61.53846153846154%;"></a>
+    
+        <a href="../apps/configuration.html" title="Configuration" class="chapter done " data-progress="5.2" style="left: 65.38461538461539%;"></a>
+    
+        <a href="../apps/testing.html" title="Testing" class="chapter done " data-progress="5.3" style="left: 69.23076923076923%;"></a>
+    
+        <a href="../modules/README.html" title="Modules" class="chapter  new-chapter" data-progress="6" style="left: 73.07692307692308%;"></a>
+    
+        <a href="../modules/routes.html" title="Routes" class="chapter  " data-progress="6.1" style="left: 76.92307692307692%;"></a>
+    
+        <a href="../modules/configuration.html" title="Configuration" class="chapter  " data-progress="6.2" style="left: 80.76923076923077%;"></a>
+    
+        <a href="../modules/testing.html" title="Testing" class="chapter  " data-progress="6.3" style="left: 84.61538461538461%;"></a>
+    
+        <a href="../initializers.html" title="Initializers" class="chapter  new-chapter" data-progress="7" style="left: 88.46153846153847%;"></a>
+    
+        <a href="../primitives/README.html" title="Primitives" class="chapter  new-chapter" data-progress="8" style="left: 92.3076923076923%;"></a>
+    
+        <a href="../plugins/README.html" title="Plugins" class="chapter  new-chapter" data-progress="9" style="left: 96.15384615384616%;"></a>
+    
+        <a href="../plugins/configuration.html" title="Configuration" class="chapter  " data-progress="9.1" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_5">
+                    
+                        <h1 id="testing-apps">Testing apps</h1>
+<blockquote>
+<p>This chapter has not yet been written. <a href="https://github.com/tanglejs/book/edit/master/apps/testing.md" target="_blank">Would you like to contribute it?</a></p>
+</blockquote>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../apps/configuration.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../modules/README.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="../gitbook/app.js"></script>
+        
+    </body>
+</html>
